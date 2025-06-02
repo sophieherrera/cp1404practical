@@ -10,3 +10,12 @@ def determine_result(score):
         return "Passable"
     else:
         return "Bad"
+
+
+def get_valid_score():
+    """Prompt user for a valid score between 0 and 100."""
+    score = float(input("Enter score: "))
+    while score < 0 or score > 100:
+        print("Invalid score. Must be between 0 and 100.")
+        score = float(input("Enter score: "))
+    return score
