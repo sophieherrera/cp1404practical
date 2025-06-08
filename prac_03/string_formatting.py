@@ -50,3 +50,9 @@ for i, number in enumerate(numbers, 1):
 # 2 ^10 is 1024
 
 
+# Creating an F-string
+name = "Gibson L-5 CES"
+year = 1922
+cost = 16035.99
+
+print(f"{year} {name} for about ${cost:,.0f}!")
