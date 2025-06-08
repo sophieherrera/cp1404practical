@@ -6,17 +6,20 @@ Answer the following questions:
 3. Could you change the code to avoid the possibility of a ZeroDivisionError?
 """
 
+
 try:
     numerator = int(input("Enter the numerator: "))
     denominator = int(input("Enter the denominator: "))
-    fraction = numerator / denominator
-    print(fraction)
+    result = numerator / denominator
 except ValueError:
     print("Numerator and denominator must be valid numbers!")
 except ZeroDivisionError:
     print("Cannot divide by zero!")
+else:
+    print(f"{numerator} / {denominator} is {result}")
 print("Finished.")
-#
+
+
 # When will a ValueError occur?
 # When the user enters something that can not be converted into an not integer.
 #
