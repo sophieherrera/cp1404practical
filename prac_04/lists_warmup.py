@@ -22,6 +22,6 @@ numbers[-1] = 1
 #print all numbers, except last 2
 print(numbers[2:])
 
-#print whether 9 is an element of numbers
+#print wther 9 is an element of numbers
 print(9 in numbers)
 
