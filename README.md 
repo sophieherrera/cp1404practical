@@ -1,0 +1,15 @@
+# CP1404 Practicals
+
+## About Me
+Hi! I'm Sophie Herrera, a Marine Biology & Data Science student at JCU.
+This repository contains all of my practical work for CP1404 – Programming II.
+
+## Clean Code Lessons
+- Using consistent naming for variables, functions and classes.
+- Keep functions focused, (SRP) one job.
+- Use comments and docstrings to explain non-obvious structure.
+
+## Useful Resources
+
+- [Programming Patterns](https://cp1404.github.io/patterns/)
+- [CP1404 Practicals Repository](https://github.com/CP1404/Practicals)
