@@ -1,0 +1,29 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    BoxLayout:
+        id: entries_box
+        orientation: 'vertical'
+        spacing: 5
+
+    Label:
+        size_hint_y: 0.1
+        text: app.status_text
+        color: 1, 1, 0, 1
+
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint_y: 0.2
+        spacing: 10
+
+        Button:
+            text: "Create widgets"
+            on_press: app.create_widgets()
+
+        Button:
+            text: "Clear Widgets"
+            on_press: app.clear_all()
+
+
