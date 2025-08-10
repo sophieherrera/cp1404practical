@@ -38,7 +38,7 @@ For each one, write a short explanation of what was good about your review.
 
 ### Good Code Review 1
 
-[](https://github.com/jd115406/cp1404practicals/pull/2#event-18715451838)
+[](https://github.com/jd115406/cp1404practicals/pull/2)
 
 ### Explanation
 
@@ -46,7 +46,7 @@ In this review i provided specific feedback on naming conventions and also sugge
 
 ### Good Code Review 2
 
-[](https://github.com/JDMjcu/CP1404practicals/pull/4#discussion_r2250289442)
+[](https://github.com/JDMjcu/CP1404practicals/pull/4)
 
 ### Explanation
 
